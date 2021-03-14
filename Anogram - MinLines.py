@@ -1,0 +1,1 @@
+print('Anograms Detected' if ( ''.join(sorted(str((str(input("Enter a string\n")).translate(dict.fromkeys(map(ord, '''!@#$.!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'''), None))).upper()))) == ( ''.join(sorted(str((str(input("Enter a string\n")).translate(dict.fromkeys(map(ord, '''!@#$.!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'''), None)))).upper())))) else 'No Anograms Detected')
